@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "New Bowler Confirmation";
+}
+
+@model Bowler
+
+<div class="text-center mt-5">
+    <h2>@Model.BowlerFirstName @Model.BowlerLastName has been added to the roster!</h2>
+    <br />
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Return Home</a>
+</div>
